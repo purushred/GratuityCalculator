@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:16
+-keep class com.smart.gratuity.GratuityCalcActivity { <init>(...); }
+
+# onClick res/layout/gratuity_calc_activity.xml #generated:133
+-keepclassmembers class * { *** calculateGratuity(...); }
+
+# onClick res/layout/gratuity_calc_activity.xml #generated:144
+-keepclassmembers class * { *** copyGratuity(...); }
+
